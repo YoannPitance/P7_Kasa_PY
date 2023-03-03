@@ -1,12 +1,7 @@
 import React from "react";
-import Header from "../components/public/Header";
 
 const APropos = () => {
-  return (
-    <div>
-      <Header />
-    </div>
-  );
+  return <div>Bienvenue sur la page A propos!</div>;
 };
 
 export default APropos;

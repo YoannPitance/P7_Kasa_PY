@@ -1,12 +1,7 @@
 import React from "react";
-import Header from "../components/public/Header";
 
 const Page404 = () => {
-  return (
-    <div>
-      <Header />
-    </div>
-  );
+  return <div>Bienvenue sur la page d'erreur 404!</div>;
 };
 
 export default Page404;
