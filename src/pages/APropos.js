@@ -1,7 +1,7 @@
 import React from "react";
 
 const APropos = () => {
-  return <body>Bienvenue sur la page A propos!</body>;
+  return <main>Bienvenue sur la page A propos!</main>;
 };
 
 export default APropos;

@@ -4,11 +4,11 @@ import Router from "./pages/Router";
 
 const App = () => {
   return (
-    <div>
+    <>
       <BrowserRouter>
         <Router />
       </BrowserRouter>
-    </div>
+    </>
   );
 };
 

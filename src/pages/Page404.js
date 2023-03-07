@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Page404 = () => {
   return (
-    <body>
+    <main>
       <div className="error">
         <img src="/assets/logo404.png" alt="erreur 404" />
         <h2>Oups! la page que vous demandez n'existe pas.</h2>
@@ -14,7 +14,7 @@ const Page404 = () => {
           </li>
         </ul>
       </div>
-    </body>
+    </main>
   );
 };
 

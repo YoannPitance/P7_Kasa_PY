@@ -1,21 +1,33 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
 .Banner{
-    border: 2px solid black;
+    position: relative;
+    border: 1px solid black;
     border-radius: 20px;
+    text-align: center;
     width: 90%;
     height: 223px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .Banner img{   
-    
-    
+    width: 100%;
+    height: 255px;
     -o-object-fit: cover;
-       object-fit: cover;
-    
+    object-fit: cover;       
 }
 
 .Banner h1{
-    text-align: center;
-    line-height: 5;
-    
+    position: absolute;
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;    
 }
