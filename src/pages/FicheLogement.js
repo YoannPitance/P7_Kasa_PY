@@ -1,7 +1,7 @@
 import React from "react";
 
 const FicheLogement = () => {
-  return <div>Bienvenue sur la page des fiches de logement !</div>;
+  return <body>Bienvenue sur la page des fiches de logement !</body>;
 };
 
 export default FicheLogement;

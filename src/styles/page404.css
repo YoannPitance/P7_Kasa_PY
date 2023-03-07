@@ -1,0 +1,30 @@
+
+
+.error{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.error img{
+    padding-top: 40px;
+    width: 50%;    
+}
+
+.error h2{
+    font-size: 36px;
+    font-weight: 400;
+    color: #ff6060;
+}
+
+.error li{
+    padding-top: 40px;
+    text-decoration: underline;
+    color: #ff6060;
+    font-size: 18px;
+}

@@ -1,0 +1,21 @@
+.Banner{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 90%;
+    height: 223px;
+    margin: 0 auto;
+}
+
+.Banner img{   
+    
+    
+    -o-object-fit: cover;
+       object-fit: cover;
+    
+}
+
+.Banner h1{
+    text-align: center;
+    line-height: 5;
+    
+}
