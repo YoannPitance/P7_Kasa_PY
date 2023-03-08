@@ -1,11 +1,11 @@
 import React from "react";
 import "../styles/banner.css";
 
-const Banner = () => {
+const Banner = (props) => {
   return (
     <div className="Banner">
-      <img src="/assets/banner.png" alt="bannière paysage avec texte" />
-      <h1>Chez vous, partout et ailleurs</h1>
+      <img src={props.imageUrl} alt="bannière paysage avec texte" />
+      {props.title && <h1>{props.title}</h1>}
     </div>
   );
 };

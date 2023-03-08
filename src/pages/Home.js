@@ -6,7 +6,10 @@ const Home = () => {
   return (
     <main>
       <section>
-        <Banner />
+        <Banner
+          imageUrl="/assets/banner.png"
+          title="Chez vous, partout et ailleurs"
+        />
         <Galery />
       </section>
     </main>
