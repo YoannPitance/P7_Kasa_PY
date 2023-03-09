@@ -9,13 +9,13 @@ const Collapse = ({ title, children }) => {
   };
 
   return (
-    <div className="collapse-container">
+    <article className="collapse-container">
       <div className="collapse-header" onClick={toggleCollapse}>
         <h3>{title}</h3>
         <div className={`arrow ${isCollapsed ? "down" : "up"}`}></div>
       </div>
       {!isCollapsed && <div className="collapse-content">{children}</div>}
-    </div>
+    </article>
   );
 };
 
