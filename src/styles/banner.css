@@ -27,10 +27,11 @@ html{
     object-fit: cover;       
 }
 
-.Banner h1{
+.Banner h2{
     position: absolute;
     width: 100%;
-    font-weight: 500;
+    font-weight: 400;
+    
     color: white;
     top: 27%;
     left: 50%;

@@ -1,24 +1,33 @@
 import React, {useState, useEffect} from 'react';
+import axios from 'axios'
 import Card from './Card';
-import axios from 'axios';
+
 import '../styles/gallery.css'
 
-const Gallery = () => {
-  const[data, setData] = useState([]);
+function Gallery() {
 
-  useEffect(() => {
-    axios.get('/datas.json').then((res) => {
-      console.log(res)
-      setData(res.data)
-      console.log(res.data)
-    })
-  })
+  const [data, setData] = useState([])
+  
+  const getDatas = () => {
+    axios.get('/datas.json')
+      .then((res) => setData(res.data))
+      
+      .catch((err) => console.log(err))      
+  };
+    
+    useEffect(() => {
+      getDatas()
+    },[]);    
 
   return (
-    <div className='gallery'>
-      <Card/>
-    </div>
+    <>
+      <div className='gallery'>
+      {data.length > 0 && data.map((card) => (
+        <Card key={card.id} title={card.title} cover={card.cover} /> 
+        ))}
+        </div>        
+    </>
   );
-};
+}
 
 export default Gallery;
