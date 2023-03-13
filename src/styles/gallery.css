@@ -1,26 +1,31 @@
+.gallerySection{
+  padding-bottom: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 1rem;
-  }
+  height: 500px;
+  background-color: #f6f6f6;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   
-  .card {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    text-align: center;
-  }
-  
-  .card h2 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .card img {
-    width: 100%;
-    height: auto;
-    border-radius: 4px;
-    margin-bottom: 1rem;
-  }
-  
+}
+
+
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 30%;
+  min-width: 340px;
+  height: 340px;
+  margin: 30px;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(0deg, rgba(60,23,23,1) 0%, rgba(255,96,96,1) 100%);
+}
+
