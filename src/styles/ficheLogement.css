@@ -1,0 +1,119 @@
+main{
+    width: 90%;
+    margin: 0 auto;
+    color: #ff6060;
+}
+
+#bannerCarrousel{
+    height: 415px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    width: 100%;
+    margin: 0 auto;    
+    overflow: hidden;
+
+}
+
+#bannerCarrousel img{
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;  
+}
+
+.collapses{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.details{
+    width: 47%;
+}
+
+.details .collapse-header h3{
+    font-size: 18px;
+}
+
+.details p{
+    font-size: 18px;
+}
+
+#presentation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#presentation h3{    
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.titleLogement{
+    font-weight: 500;
+    font-size: 36px; 
+    margin-bottom: 0;       
+}
+
+.tagsContainer{
+    display: flex;
+}
+
+.tags{
+    width: 115px;
+    background-color: #ff6060;
+    color: white;
+    font-size: 14px;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#author{
+    align-self: self-end;
+}
+
+.author{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+    height: 90px;    
+}
+
+.author p{
+    flex-basis: min-content;
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 10px;
+}
+
+.roundImg{
+    width: 65px;
+    height: 65px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.roundImg img{
+    width: 65px;
+    height: 65px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.rating{
+    height: 50px;
+    display: flex;
+    font-size: 36px;
+    justify-content: end;
+}
+
+.rating span{
+    padding-left: 5px;
+
+}
+
