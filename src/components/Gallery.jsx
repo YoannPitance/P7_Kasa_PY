@@ -23,7 +23,7 @@ function Gallery() {
     <>
       <div className='gallery'>
       {data.length > 0 && data.map((card) => (
-        <Card key={card.id} title={card.title} cover={card.cover} /> 
+        <Card key={card.id} title={card.title} cover={card.cover} id={card.id}/> 
         ))}
         </div>        
     </>
