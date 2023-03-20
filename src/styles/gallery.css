@@ -21,39 +21,47 @@
   width: calc(33.33% - 20px);
   max-width: 340px;
   height: 340px;
-  margin: 0 10px 30px;
-  
-  padding: 0;
-  
+  margin: 0 10px 30px;  
+  padding: 0;  
 }
 
 .cardImage{
+  position: relative;
   width: 100%;
-  height: 260px;
+  height: 340px;
+  z-index: 3;
 }
 
-.card img {
-  background: linear-gradient(rgba(0, 0, 0, 0.3) 70%, rgba(0, 0, 0, 0.7) 100%);
+.card img {  
   max-width: 100%;
-  height: 132%;
+  height: 100%;
   margin-bottom: 10px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
+}
+
+.opacityMask{
+  background: linear-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.5) 100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .cardText{
-  display: flex;
+  z-index: 5;
+  position: absolute;
+  bottom: 0;
+  left: 0;  
+  /* display: flex;
   align-items: flex-end;
-  align-self: flex-start;
-  
+  align-self: flex-start; */
   
 }
 
 .card h2 {
   color: #fff;
-  font-weight: 300;
-  padding-left: 10px;
-  
+  font-weight: 500;
+  padding-left: 10px;  
   font-size: 18px;
   max-width: 70%;
 }

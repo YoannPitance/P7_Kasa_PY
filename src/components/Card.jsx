@@ -5,6 +5,7 @@ function Card(props) {
   return (
     <Link to={`/fiche-logement/${props.id}`} className="card">
       <div className="cardImage">
+        <div className="opacityMask"></div>
         <img src={props.cover} alt={props.title} />
         <h2 className="cardText">{props.title}</h2>
       </div>
