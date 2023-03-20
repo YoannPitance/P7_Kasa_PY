@@ -22,12 +22,9 @@
   max-width: 340px;
   height: 340px;
   margin: 0 10px 30px;
-  display: flex;
+  
   padding: 0;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-image: linear-gradient(0deg, rgb(129, 50, 50) 3%, rgba(255,96,96,1) 40%);
+  
 }
 
 .cardImage{
@@ -36,8 +33,9 @@
 }
 
 .card img {
+  background: linear-gradient(rgba(0, 0, 0, 0.3) 70%, rgba(0, 0, 0, 0.7) 100%);
   max-width: 100%;
-  height: 263px;
+  height: 132%;
   margin-bottom: 10px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -47,7 +45,7 @@
   display: flex;
   align-items: flex-end;
   align-self: flex-start;
-  height: 25% ;
+  
   
 }
 
