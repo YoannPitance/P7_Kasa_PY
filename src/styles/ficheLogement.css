@@ -7,18 +7,53 @@
     width: 100%;
     margin: 0 auto;    
     overflow: hidden;
+    position: relative;
+}
+
+.bannerImg{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;  
+}
+
+#containerImg{
+    width: 100%;
+    height: 100%;
+        
+}
+
+.bouton{
+    
+    position: absolute;
+    width: 70px;
+    cursor: pointer;
+    top: 42%;
+}
+
+#gauche{
+    left: 0;
+    opacity: 0.4;
+}
+
+#droite{
+    right: 0;
+    opacity: 0.4;
+}
+
+#gauche:hover{
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+#droite:hover{
+    transition: all 0.3s ease;
+    opacity: 1;
 }
 
 #bannerCarrousel .banner{
     width: 100%;
     height: auto;
-}
-
-#bannerCarrousel img{
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;  
 }
 
 .collapses{

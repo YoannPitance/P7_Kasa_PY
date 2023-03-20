@@ -36,6 +36,7 @@ import axios from "axios";
 import Collapse from "../components/Collapse";
 import "../styles/ficheLogement.css";
 import Page404 from "../pages/Page404";
+import BannerCarrousel from "../components/BannerCarrousel";
 
 function FicheLogement() {
   const { id } = useParams();
@@ -74,7 +75,8 @@ function FicheLogement() {
         <>
           <section id="bannerCarrousel">
             <div className="banner">
-              <img src={selectedCard.pictures[0]} alt={selectedCard.title} />
+              <BannerCarrousel pictures={selectedCard.pictures} />
+              {/* <img src={selectedCard.pictures[0]} alt={selectedCard.title} /> */}
             </div>
           </section>
 
@@ -101,6 +103,11 @@ function FicheLogement() {
                 </div>
               </div>
               <div className="rating">
+                {/* {[1, 2, 3, 4, 5].map((num) => (
+                  <span className={selectedCard.flat.rating > num ? "on" : ""}>
+                    ★
+                  </span>
+                ))} */}
                 <span>★</span>
                 <span>★</span>
                 <span>★</span>
