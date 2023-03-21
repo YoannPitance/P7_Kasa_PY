@@ -37,6 +37,7 @@ import Collapse from "../components/Collapse";
 import "../styles/ficheLogement.css";
 import Page404 from "../pages/Page404";
 import BannerCarrousel from "../components/BannerCarrousel";
+import Rating from "../components/Rating";
 
 function FicheLogement() {
   const { id } = useParams();
@@ -102,18 +103,14 @@ function FicheLogement() {
                   />
                 </div>
               </div>
-              <div className="rating">
-                {/* {[1, 2, 3, 4, 5].map((num) => (
-                  <span className={selectedCard.flat.rating > num ? "on" : ""}>
+              {/* <div className="rating">
+                {[1, 2, 3, 4, 5].map((num) => (
+                  <span className={selectedCard.rating >= num ? "full" : ""}>
                     ★
                   </span>
-                ))} */}
-                <span>★</span>
-                <span>★</span>
-                <span>★</span>
-                <span>★</span>
-                <span>★</span>
-              </div>
+                ))}
+              </div> */}
+              <Rating rate={selectedCard.rating} />
             </div>
           </section>
 

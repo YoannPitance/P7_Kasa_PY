@@ -56,6 +56,14 @@
     height: auto;
 }
 
+.active{
+    opacity: 1;
+}
+
+.inactive{
+    opacity: 0.2;
+}
+
 .collapses{
     width: 100%;
     display: flex;
@@ -150,5 +158,11 @@
 
 .rating span{
     padding-left: 5px;
+    color: #e3e3e3;
+}
+
+span.full{
+    color: #ff6060;
+    z-index: 3;
 }
 

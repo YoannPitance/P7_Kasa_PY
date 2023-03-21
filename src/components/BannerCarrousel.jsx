@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
-function BannerCarrousel(props) {
-  const pictures = props.pictures;
+function BannerCarrousel({ pictures }) {
   //   const [currentIndex, setCurrentIndex] = useState(0);
 
   return (
