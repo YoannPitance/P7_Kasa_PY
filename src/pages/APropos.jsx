@@ -6,8 +6,8 @@ import "../styles/apropos.css";
 const APropos = () => {
   return (
     <main>
-      <section>
-        <Banner imageUrl="/assets/aproposImage.png" />
+      <Banner imageUrl="/assets/aproposImage.png" />
+      <section id="collapses">
         <Collapse title="Fiabilité">
           <p>
             Les annonces postées sur Kasa garantissent une fiabilité totale. Les

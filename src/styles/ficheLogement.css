@@ -71,15 +71,21 @@
     
 }
 
-.details{
+.description, .equipments{
     width: 47%;
 }
 
-.details .collapse-header h3{
+.equipments p{
+    margin: 0;
+}
+
+
+
+.collapses .collapse-header h3{
     font-size: 18px;
 }
 
-.details p{
+.collapses p{
     font-size: 18px;
 }
 
@@ -111,7 +117,7 @@
     color: white;
     font-size: 14px;
     margin-right: 10px;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 20px 5px 20px;
     border-radius: 10px;
     text-align: center;
 }
