@@ -3,7 +3,7 @@ import Banner from "../components/Banner";
 import Collapse from "../components/Collapse";
 import "../styles/apropos.css";
 
-const APropos = () => {
+const About = () => {
   return (
     <main>
       <Banner imageUrl="/assets/aproposImage.png" />
@@ -44,4 +44,4 @@ const APropos = () => {
   );
 };
 
-export default APropos;
+export default About;

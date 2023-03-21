@@ -3,11 +3,11 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import Collapse from "../components/Collapse";
 import "../styles/ficheLogement.css";
-import Page404 from "../pages/Page404";
+import Page404 from "./Page404";
 import BannerCarrousel from "../components/BannerCarrousel";
 import Rating from "../components/Rating";
 
-function FicheLogement() {
+function Appartment() {
   const { id } = useParams();
   const [selectedCard, setSelectedCard] = useState(null);
   const [notFound, setNotFound] = useState(false);
@@ -104,4 +104,4 @@ function FicheLogement() {
   );
 }
 
-export default FicheLogement;
+export default Appartment;
