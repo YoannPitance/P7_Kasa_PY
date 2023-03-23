@@ -1,7 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 
 function BannerCarrousel({ pictures }) {
-  //   const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const nextSlide = () => {
+    const lastIndex = pictures.length - 1;
+    const resetIndex = currentIndex === lastIndex;
+    const index = resetIndex ? 0 : currentIndex + 1;
+
+    setCurrentIndex(index);
+  };
+
+  const prevSlide = () => {
+    const lastIndex = pictures.length - 1;
+    const resetIndex = currentIndex === 0;
+    const index = resetIndex ? lastIndex : currentIndex - 1;
+
+    setCurrentIndex(index);
+  };
 
   return (
     <div id="containerImg">
@@ -10,17 +26,36 @@ function BannerCarrousel({ pictures }) {
         alt="flèche suivant"
         className="bouton"
         id="droite"
+        onClick={nextSlide}
       />
       <img
         src="/assets/arrow_back.png"
         alt="flèche précédent"
         className="bouton"
         id="gauche"
+        onClick={prevSlide}
       />
 
-      {pictures.map((picture) => (
-        <img className="bannerImg" key={picture} src={picture} alt=""></img>
-      ))}
+      <div className="carousel__images" data-current-index={currentIndex}>
+        {pictures.map((picture, index) => (
+          <img
+            key={index}
+            src={picture}
+            alt={`Slide ${index}`}
+            className={`carousel__image ${
+              index === currentIndex
+                ? "active"
+                : index < currentIndex
+                ? "prev"
+                : "next"
+            }`}
+          />
+        ))}
+      </div>
+
+      <div className="carousel__index">
+        {`${currentIndex + 1}/${pictures.length}`}
+      </div>
     </div>
   );
 }

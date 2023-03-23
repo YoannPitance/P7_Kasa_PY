@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import Collapse from "../components/Collapse";
-import "../styles/ficheLogement.css";
+import "../styles/appartment.css";
 import Page404 from "./Page404";
 import BannerCarrousel from "../components/BannerCarrousel";
 import Rating from "../components/Rating";

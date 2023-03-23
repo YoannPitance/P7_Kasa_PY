@@ -9,9 +9,6 @@ const Router = () => {
       <Route element={<Layout />}>
         <Route index element={<Home />} />
 
-        {/* <Route path="/home" element={<Home />} />
-        <Route path="/appartment/:id" element={<Appartment />} />
-        <Route path="/about" element={<About />} /> */}
         <Route path="/home" element={<Home />} />
         <Route path="/appartment/:id" element={<Appartment />} />
         <Route path="/about" element={<About />} />
