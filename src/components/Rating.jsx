@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/rating.css";
 
 function Rating({ rate }) {
   const stars = [1, 2, 3, 4, 5];

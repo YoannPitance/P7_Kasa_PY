@@ -34,3 +34,22 @@
     transform: translate(-50%, -50%);
     font-size: 48px;    
 }
+
+@media screen and (max-width: 767px){
+
+    .Banner{
+        height: 111px;
+    }
+
+    .aboutBanner .Banner{
+        height: 223px;
+    }
+
+    .Banner h2{
+        font-size: 24px;
+        top: 32%;
+        left: 40%;
+        width: 65%;
+        text-align: start;
+    }
+}

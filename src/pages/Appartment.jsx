@@ -70,13 +70,6 @@ function Appartment() {
                   />
                 </div>
               </div>
-              {/* <div className="rating">
-                {[1, 2, 3, 4, 5].map((num) => (
-                  <span className={selectedCard.rating >= num ? "full" : ""}>
-                    ★
-                  </span>
-                ))}
-              </div> */}
               <Rating rate={selectedCard.rating} />
             </div>
           </section>

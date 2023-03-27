@@ -13,3 +13,19 @@ footer{
     padding: 20px;
 }
 
+@media screen and (max-width: 767px){
+
+    .logofooter{
+        padding-top: 50px;
+    }
+
+    .droitsKasa{
+        width: 90%;
+        text-align: center;    
+        padding: 0px 0px 40px 0px    
+    }
+
+    .droitsKasa img{
+        width: 70%;
+    }
+}

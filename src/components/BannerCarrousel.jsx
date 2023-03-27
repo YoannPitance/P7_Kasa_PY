@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import "../styles/bannerCarrousel.css";
 
 function BannerCarrousel({ pictures }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -36,22 +37,26 @@ function BannerCarrousel({ pictures }) {
         onClick={prevSlide}
       />
 
-      <div className="carousel__images" data-current-index={currentIndex}>
-        {pictures.map((picture, index) => (
-          <img
-            key={index}
-            src={picture}
-            alt={`Slide ${index}`}
-            className={`carousel__image ${
-              index === currentIndex
-                ? "active"
-                : index < currentIndex
-                ? "prev"
-                : "next"
-            }`}
-          />
-        ))}
-      </div>
+      {pictures.map((picture, index) => (
+        <div className="carousel__images" data-current-index={currentIndex}>
+          {index === currentIndex ? (
+            <img
+              key={index}
+              src={picture}
+              alt={`Slide ${index}`}
+              className={`carousel__image ${
+                index === currentIndex
+                  ? "active"
+                  : index < currentIndex
+                  ? "prev"
+                  : "next"
+              }`}
+            />
+          ) : (
+            ""
+          )}
+        </div>
+      ))}
 
       <div className="carousel__index">
         {`${currentIndex + 1}/${pictures.length}`}

@@ -79,3 +79,29 @@ article.collapse-container{
     margin: 0;
     line-height: 140%;
   }
+
+
+  @media screen and (max-width: 767px){
+
+    section#collapses{
+      
+      width: 100%;
+    }
+
+    section#collapses .collapse-container{
+      margin: 0px 0px 20px 0px;
+    }
+    
+    section#collapses .collapse-content{
+      font-size: 13px;
+    }
+    
+    section#collapses .collapse-header h3{
+      font-size: 13px;
+    }
+    section#collapses .collapse-header .arrow{
+      border-width: 0 2px 2px 0;
+      padding: 5px;
+    }
+
+  }

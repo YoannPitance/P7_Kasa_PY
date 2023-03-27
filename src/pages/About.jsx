@@ -1,12 +1,13 @@
 import React from "react";
 import Banner from "../components/Banner";
 import Collapse from "../components/Collapse";
-import "../styles/apropos.css";
 
 const About = () => {
   return (
     <main>
-      <Banner imageUrl="/assets/aproposImage.png" />
+      <div className="aboutBanner">
+        <Banner imageUrl="/assets/aproposImage.png" />
+      </div>
       <section id="collapses">
         <Collapse title="Fiabilité">
           <p>

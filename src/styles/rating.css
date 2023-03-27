@@ -1,0 +1,17 @@
+
+.rating{
+    height: 50px;
+    display: flex;
+    font-size: 36px;
+    justify-content: right;
+}
+
+.rating span{
+    padding-left: 5px;
+    color: #e3e3e3;
+}
+
+span.full{
+    color: #ff6060;
+    z-index: 3;
+}
