@@ -43,6 +43,7 @@ a{
     nav a{
         font-size: 12px;
         padding-left: 10px;
+        text-transform: uppercase;
     }
 
     nav li{

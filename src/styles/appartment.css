@@ -90,3 +90,94 @@
 }
 
 
+@media screen and (max-width: 767px){
+
+    #presentation{
+        flex-direction: column;
+    }
+
+    .presentation{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    h2.titleLogement{
+        font-size: 18px;
+    }
+
+    #presentation h3{
+        font-size: 14px;
+    }
+
+    .tagsContainer{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    .tags{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    #author{
+        display: flex;
+        justify-content: space-between;
+        align-self: flex-start;
+        width: 100%;
+    }
+
+    .author{
+        height: 50px;
+        order: 2;
+    }
+
+    .roundImg{
+        width: 32px;
+        height: 32px;
+    }
+    
+    .roundImg img{
+        width: 32px;
+        height: 32px;
+    }
+    .author p{
+        font-size: 12px;
+    }
+    
+    .rating{
+        font-size: 18px;
+    }
+
+    #description .collapses{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .description, .equipments{
+        width: 100%;
+    }
+
+    #description .arrow{
+        border-width: 0 2px 2px 0;
+      padding: 5px;
+    }
+
+    #description article.collapse-container{
+        margin-top: 10px;
+    }
+
+    #description .collapse-header h3{
+        font-size: 13px;
+    }
+
+    #description .collapses p{
+        font-size: 12px;
+    }
+
+    #description .collapse-content{
+        padding: 20px 15px 15px 15px;
+    }
+}
+

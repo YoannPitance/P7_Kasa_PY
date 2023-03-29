@@ -90,3 +90,16 @@
 .active{
     opacity: 1;
 }
+
+
+@media screen and (max-width: 767px){
+
+    #bannerCarrousel{
+        height: 255px;
+
+    }
+
+    .carousel__image{
+        height: 255px;
+    }
+}
