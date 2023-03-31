@@ -48,12 +48,11 @@
 
 .carousel__index {
     position: absolute;
-    bottom: 10px;
-    right: 49%;
+    bottom: 10px;    
+    left: 49%;
     color: #fff;
     font-size: 18px;
-    z-index: 1
-    ;
+    z-index: 1;
 }
 
 .bouton{
@@ -98,10 +97,20 @@
 
     #bannerCarrousel{
         height: 255px;
-
     }
 
     .carousel__image{
         height: 255px;
     }
+
+    .bouton{
+        width: 30px;
+    }
+
+    .carousel__index{
+        font-size: 13px;
+        display: none;
+    } 
+
+
 }
