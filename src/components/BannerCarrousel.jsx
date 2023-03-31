@@ -20,23 +20,31 @@ function BannerCarrousel({ pictures }) {
     setCurrentIndex(index);
   };
 
+  const displayArrowsIndex = pictures.length > 1;
+
   return (
     <div id="containerImg">
-      <img
-        src="/assets/arrow_forward.png"
-        alt="flèche suivant"
-        className="bouton"
-        id="droite"
-        onClick={nextSlide}
-      />
-      <img
-        src="/assets/arrow_back.png"
-        alt="flèche précédent"
-        className="bouton"
-        id="gauche"
-        onClick={prevSlide}
-      />
-
+      {displayArrowsIndex && (
+        <>
+          <img
+            src="/assets/arrow_forward.png"
+            alt="flèche suivant"
+            className="bouton"
+            id="droite"
+            onClick={nextSlide}
+          />
+          <img
+            src="/assets/arrow_back.png"
+            alt="flèche précédent"
+            className="bouton"
+            id="gauche"
+            onClick={prevSlide}
+          />
+          <div className="carousel__index">
+            {`${currentIndex + 1}/${pictures.length}`}
+          </div>
+        </>
+      )}
       {pictures.map((picture, index) => (
         <div className="carousel__images" data-current-index={currentIndex}>
           {index === currentIndex ? (
@@ -57,10 +65,6 @@ function BannerCarrousel({ pictures }) {
           )}
         </div>
       ))}
-
-      <div className="carousel__index">
-        {`${currentIndex + 1}/${pictures.length}`}
-      </div>
     </div>
   );
 }

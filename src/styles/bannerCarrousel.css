@@ -52,6 +52,8 @@
     right: 49%;
     color: #fff;
     font-size: 18px;
+    z-index: 1
+    ;
 }
 
 .bouton{
