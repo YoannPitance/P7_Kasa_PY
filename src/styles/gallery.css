@@ -7,7 +7,7 @@
   border-radius: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 30px;
   max-width: 100%;
   margin: 0 auto;
@@ -42,7 +42,7 @@
 }
 
 .opacityMask{
-  background: linear-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.7) 100%);
+  background: linear-gradient(rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.9) 100%);
   width: 100%;
   height: 100%;
   position: absolute;
