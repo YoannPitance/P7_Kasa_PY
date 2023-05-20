@@ -1,3 +1,37 @@
+# P7 Kasa
+
+## Projet d'apprentissage n°7 du parcours Dévellopeur Web Openclassrooms
+### "Créez une application web de location immobilière avec React"
+
+### La validation de ce projet nécessitait de respecter les caracteristiques techniques suivantes:<br><br>
+* 
+<br>
+
+**PROJET validé!**<br>
+
+### Vous pouvez voir et tester le rendu ici:
+Vous aurez besoin d'installer node et npm sur votre machine pour pouvoir accéder à cette version.<br><br>
+1- <br>
+2- <br>
+3- <br>
+4- <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
