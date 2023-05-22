@@ -4,7 +4,15 @@
 ### "Créez une application web de location immobilière avec React"
 
 ### La validation de ce projet nécessitait de respecter les caracteristiques techniques suivantes:<br><br>
-* 
+* Créer un projet React et savoir utiliser React.
+* Structurer les fichiers d'un projet de manière logique.
+* Déecomposer le projet en plusieurs composants réutilisables et flexibles.
+* Utiliser principalement des composants fonctionnels ou d'état plutôt que des composants de classe.
+* Savoir utiliser et gérer des props entre composants.
+* Mettre en place et gérer le routage du site avec React Router.
+* Gérer les erreurs de routage et rediriger vers une page 404..
+* Créer des effets graphiques dynamiques sans bibliothèque (collapses, carrousel d'images...)
+* Utilisation de Figma pour intégrer la maquette.
 <br>
 
 **PROJET validé!**<br>
