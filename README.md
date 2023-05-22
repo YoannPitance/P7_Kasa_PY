@@ -19,7 +19,7 @@
 
 ### Vous pouvez voir et tester le rendu ici:
 Vous aurez besoin de cloner ce repository => https://github.com/YoannPitance/P7_Kasa_PY.git.<br><br>
-1- Depuis le dossier **front** passez la commande **npm install**<br>
+1- ouvrez un terminal et passez la commande **npm install**<br>
 2- Une fois les dépendances du projet installées faites **npm start**<br>
 3- Le projet se lance sur votre serveur local http://localhost:3000<br>
 4- Naviguer et tester les fonctionnalités du site!<br>
