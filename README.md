@@ -9,7 +9,7 @@
 * Déecomposer le projet en plusieurs composants réutilisables et flexibles.
 * Utiliser principalement des composants fonctionnels ou d'état plutôt que des composants de classe.
 * Savoir utiliser et gérer des props entre composants.
-* Mettre en place et gérer le routage du site avec React Router.
+* Mettre en place et gérer le routage du site avec React Router dans un fichier dédié.
 * Gérer les erreurs de routage et rediriger vers une page 404..
 * Créer des effets graphiques dynamiques sans bibliothèque (collapses, carrousel d'images...)
 * Utilisation de Figma pour intégrer la maquette.
@@ -18,11 +18,11 @@
 **PROJET validé!**<br>
 
 ### Vous pouvez voir et tester le rendu ici:
-Vous aurez besoin d'installer node et npm sur votre machine pour pouvoir accéder à cette version.<br><br>
-1- <br>
-2- <br>
-3- <br>
-4- <br>
+Vous aurez besoin de cloner ce repository => https://github.com/YoannPitance/P7_Kasa_PY.git.<br><br>
+1- Depuis le dossier **front** passez la commande **npm install**<br>
+2- Une fois les dépendances du projet installées faites **npm start**<br>
+3- Le projet se lance sur votre serveur local http://localhost:3000<br>
+4- Naviguer et tester les fonctionnalités du site!<br>
 
 
 
